@@ -118,7 +118,7 @@ export const companyInfo = {
   phone: '(818) 439-8767',
   phoneRaw: '+18184398767',
   address: '7240 Woodman Ave., #11, Van Nuys, CA 91405',
-  email: 'phe.tistas.electric.inc@gmail.com',
+  email: 'phe.tistas.electric.incc@gmail.com',
   license: '#1051941',
   serviceArea: 'Los Angeles and surrounding areas, California',
   hours: 'Mon–Sat: 7:00 AM – 6:00 PM',
