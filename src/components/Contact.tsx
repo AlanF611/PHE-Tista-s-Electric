@@ -32,6 +32,12 @@ export default function Contact() {
       href: `tel:${companyInfo.phoneRaw}`,
     },
     {
+      icon: Phone,
+      label: 'Office',
+      value: companyInfo.officePhone,
+      href: `tel:${companyInfo.officePhoneRaw}`,
+    },
+    {
       icon: Mail,
       label: 'Email',
       value: companyInfo.email,
@@ -207,7 +213,12 @@ export default function Contact() {
                 You can also call us directly at{' '}
                 <a href={`tel:${companyInfo.phoneRaw}`} className="font-semibold text-electric-300 hover:text-electric-200">
                   {companyInfo.phone}
+                </a>{' '}
+                or{' '}
+                <a href={`tel:${companyInfo.officePhoneRaw}`} className="font-semibold text-electric-300 hover:text-electric-200">
+                  {companyInfo.officePhone}
                 </a>
+                {' '}(office)
               </p>
             </form>
           </Reveal>
