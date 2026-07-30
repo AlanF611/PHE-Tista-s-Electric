@@ -117,6 +117,8 @@ export const companyInfo = {
   slogan: 'Commercial & Residential Electrical Services',
   phone: '(818) 439-8767',
   phoneRaw: '+18184398767',
+  officePhone: '(714) 583-4060',
+  officePhoneRaw: '+17145834060',
   address: '7240 Woodman Ave., #11, Van Nuys, CA 91405',
   email: 'phe.tistas.electric.incc@gmail.com',
   license: '#1051941',
